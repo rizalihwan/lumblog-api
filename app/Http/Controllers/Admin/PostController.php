@@ -51,4 +51,28 @@ class PostController extends Controller
             }
         }
     }
+
+    public function show($id)
+    {
+        // try {
+        $post = Post::find($id);
+        if ($post) {
+            return response()->json([
+                'success'   => true,
+                'message'   => 'Detail Post!',
+                'data'      => $post
+            ], 200);
+        } else {
+            return response()->json([
+                'success' => false,
+                'message' => 'Post Not Found!',
+            ], 404);
+        }
+        // } catch (\Exception $e) {
+        //     return response()->json([
+        //         'success' => false,
+        //         'message' => 'Error!'
+        //     ]);
+        // }
+    }
 }
