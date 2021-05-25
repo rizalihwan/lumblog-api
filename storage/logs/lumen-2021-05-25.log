@@ -23176,3 +23176,83 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2021-05-25 14:11:01] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-25 14:12:01] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-25 14:13:08] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-25 14:13:09] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Http\Kernel] is not instantiable. in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1052
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(845): Illuminate\Container\Container->notInstantiable()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(717): Illuminate\Container\Container->build()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(655): Illuminate\Container\Container->resolve()
+#3 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make()
+#4 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Http\\Kernel] is not instantiable. in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1052
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(845): Illuminate\\Container\\Container->notInstantiable()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(717): Illuminate\\Container\\Container->build()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(655): Illuminate\\Container\\Container->resolve()
+#3 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#4 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1052)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-25 14:13:09] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-25 14:13:09] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1067
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(974): Illuminate\Container\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(909): Illuminate\Container\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(871): Illuminate\Container\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(717): Illuminate\Container\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(655): Illuminate\Container\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1067
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(974): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(909): Illuminate\\Container\\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(871): Illuminate\\Container\\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(717): Illuminate\\Container\\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(655): Illuminate\\Container\\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1067)
+[stacktrace]
+#0 {main}
+"} 
