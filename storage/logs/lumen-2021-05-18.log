@@ -1,0 +1,1440 @@
+[2021-05-18 00:30:59] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:30:59] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Http\Kernel] is not instantiable. in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1049
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(842): Illuminate\Container\Container->notInstantiable()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\Container\Container->build()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\Container\Container->resolve()
+#3 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make()
+#4 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Http\\Kernel] is not instantiable. in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1049
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(842): Illuminate\\Container\\Container->notInstantiable()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\\Container\\Container->build()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\\Container\\Container->resolve()
+#3 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#4 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1049)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:30:59] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:30:59] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\Container\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\Container\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\Container\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\Container\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\Container\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\\Container\\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\\Container\\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\\Container\\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\\Container\\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:31:59] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:32:58] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:33:58] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:34:04] local.ERROR: There are no commands defined in the "generate" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"generate\" namespace. at /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Application.php:605)
+[stacktrace]
+#0 /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Application.php(656): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Application.php(254): Symfony\\Component\\Console\\Application->find()
+#2 /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Application.php(166): Symfony\\Component\\Console\\Application->doRun()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/console/Application.php(92): Symfony\\Component\\Console\\Application->run()
+#4 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#5 /opt/lampp/htdocs/lumen_API/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2021-05-18 00:34:15] local.ERROR: There are no commands defined in the "key" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"key\" namespace. at /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Application.php:605)
+[stacktrace]
+#0 /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Application.php(656): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Application.php(254): Symfony\\Component\\Console\\Application->find()
+#2 /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Application.php(166): Symfony\\Component\\Console\\Application->doRun()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/console/Application.php(92): Symfony\\Component\\Console\\Application->run()
+#4 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#5 /opt/lampp/htdocs/lumen_API/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2021-05-18 00:34:58] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:35:17] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:35:58] local.ERROR: syntax error, unexpected ';', expecting ')' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected ';', expecting ')' at /opt/lampp/htdocs/lumen_API/routes/web.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:35:58] local.ERROR: syntax error, unexpected ';', expecting ')' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected ';', expecting ')' at /opt/lampp/htdocs/lumen_API/routes/web.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:36:07] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:36:14] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:36:37] local.ERROR: Class 'Str' not found {"exception":"[object] (Error(code: 0): Class 'Str' not found at /opt/lampp/htdocs/lumen_API/routes/web.php:8)
+[stacktrace]
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(36): Closure->{closure}()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(611): Illuminate\\Container\\BoundMethod::call()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(299): Illuminate\\Container\\Container->call()
+#6 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#7 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#8 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#9 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#10 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#11 /opt/lampp/htdocs/lumen_API/public/index.php(28): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2021-05-18 00:36:58] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:37:16] local.ERROR: Call to undefined function str_random() {"exception":"[object] (Error(code: 0): Call to undefined function str_random() at /opt/lampp/htdocs/lumen_API/routes/web.php:8)
+[stacktrace]
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(36): Closure->{closure}()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(611): Illuminate\\Container\\BoundMethod::call()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(299): Illuminate\\Container\\Container->call()
+#6 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#7 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#8 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#9 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#10 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#11 /opt/lampp/htdocs/lumen_API/public/index.php(28): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2021-05-18 00:37:19] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:37:50] local.ERROR: Call to undefined function str_random() {"exception":"[object] (Error(code: 0): Call to undefined function str_random() at /opt/lampp/htdocs/lumen_API/routes/web.php:8)
+[stacktrace]
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(36): Closure->{closure}()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(611): Illuminate\\Container\\BoundMethod::call()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(299): Illuminate\\Container\\Container->call()
+#6 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#7 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#8 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#9 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#10 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#11 /opt/lampp/htdocs/lumen_API/public/index.php(28): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2021-05-18 00:37:52] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:37:58] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:38:06] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:38:58] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:39:27] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:39:54] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:39:59] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:40:21] local.ERROR: Class 'Str' not found {"exception":"[object] (Error(code: 0): Class 'Str' not found at /opt/lampp/htdocs/lumen_API/routes/web.php:7)
+[stacktrace]
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(36): Closure->{closure}()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(611): Illuminate\\Container\\BoundMethod::call()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(299): Illuminate\\Container\\Container->call()
+#6 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#7 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#8 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#9 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#10 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#11 /opt/lampp/htdocs/lumen_API/public/index.php(28): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2021-05-18 00:40:21] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:40:49] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:40:58] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:40:59] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\Container\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\Container\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\Container\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\Container\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\Container\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\\Container\\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\\Container\\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\\Container\\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\\Container\\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:41:59] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:42:56] local.ERROR: Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\Lumen\Routing\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\\Lumen\\Routing\\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown at /opt/lampp/htdocs/lumen_API/routes/web.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:42:58] local.ERROR: Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\Lumen\Routing\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\\Lumen\\Routing\\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown at /opt/lampp/htdocs/lumen_API/routes/web.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:42:58] local.ERROR: Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\Lumen\Routing\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\\Lumen\\Routing\\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown at /opt/lampp/htdocs/lumen_API/routes/web.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:43:02] local.ERROR: Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\Lumen\Routing\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\\Lumen\\Routing\\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown at /opt/lampp/htdocs/lumen_API/routes/web.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:43:05] local.ERROR: Undefined variable: name {"exception":"[object] (ErrorException(code: 0): Undefined variable: name at /opt/lampp/htdocs/lumen_API/routes/web.php:12)
+[stacktrace]
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\\Lumen\\Routing\\Router->group()
+#4 /opt/lampp/htdocs/lumen_API/public/index.php(14): require('/opt/lampp/htdo...')
+#5 {main}
+"} 
+[2021-05-18 00:43:15] local.ERROR: Undefined variable: name {"exception":"[object] (ErrorException(code: 0): Undefined variable: name at /opt/lampp/htdocs/lumen_API/routes/web.php:12)
+[stacktrace]
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\\Lumen\\Routing\\Router->group()
+#4 /opt/lampp/htdocs/lumen_API/public/index.php(14): require('/opt/lampp/htdo...')
+#5 {main}
+"} 
+[2021-05-18 00:43:19] local.ERROR: Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\Lumen\Routing\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\\Lumen\\Routing\\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown at /opt/lampp/htdocs/lumen_API/routes/web.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:43:58] local.ERROR: Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\Lumen\Routing\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\\Lumen\\Routing\\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown at /opt/lampp/htdocs/lumen_API/routes/web.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:43:58] local.ERROR: Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\Lumen\Application->Laravel\Lumen\Concerns\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\Lumen\Routing\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ErrorException: Undefined variable: name in /opt/lampp/htdocs/lumen_API/routes/web.php:12
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/routes/web.php(12): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(112): require('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#3 /opt/lampp/htdocs/lumen_API/bootstrap/app.php(113): Laravel\\Lumen\\Routing\\Router->group()
+#4 Command line code(1): require_once('/opt/lampp/htdo...')
+#5 {main}
+  thrown at /opt/lampp/htdocs/lumen_API/routes/web.php:12)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 00:44:09] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:13:43] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:14:48] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:15:09] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:15:27] local.ERROR: Command "make:controller" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:controller\" is not defined.
+
+Did you mean one of these?
+    make:migration
+    make:seeder at /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Application.php:675)
+[stacktrace]
+#0 /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Command/HelpCommand.php(70): Symfony\\Component\\Console\\Application->find()
+#1 /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Command/Command.php(256): Symfony\\Component\\Console\\Command\\HelpCommand->execute()
+#2 /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Application.php(971): Symfony\\Component\\Console\\Command\\Command->run()
+#3 /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand()
+#4 /opt/lampp/htdocs/lumen_API/vendor/symfony/console/Application.php(166): Symfony\\Component\\Console\\Application->doRun()
+#5 /opt/lampp/htdocs/lumen_API/vendor/illuminate/console/Application.php(92): Symfony\\Component\\Console\\Application->run()
+#6 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#7 /opt/lampp/htdocs/lumen_API/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#8 {main}
+"} 
+[2021-05-18 02:15:40] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:16:41] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:17:40] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:18:41] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:19:41] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\Container\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\Container\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\Container\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\Container\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\Container\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\\Container\\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\\Container\\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\\Container\\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\\Container\\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:19:41] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:20:40] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:21:28] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:21:41] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:22:41] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:23:41] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:36:47] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:36:47] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Http\Kernel] is not instantiable. in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1049
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(842): Illuminate\Container\Container->notInstantiable()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\Container\Container->build()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\Container\Container->resolve()
+#3 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make()
+#4 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Http\\Kernel] is not instantiable. in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1049
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(842): Illuminate\\Container\\Container->notInstantiable()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\\Container\\Container->build()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\\Container\\Container->resolve()
+#3 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#4 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make()
+#5 Command line code(1): app()
+#6 {main}
+  thrown at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1049)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:36:48] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:36:48] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\Container\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\Container\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\Container\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\Container\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\Container\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\\Container\\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\\Container\\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\\Container\\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\\Container\\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:37:48] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:38:46] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:39:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:40:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:41:46] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:42:46] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:43:19] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:43:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:44:14] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:44:46] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:45:10] local.ERROR: Unable to resolve dependency [Parameter #0 [ <required> $ahaha ]] in class Closure {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Unable to resolve dependency [Parameter #0 [ <required> $ahaha ]] in class Closure at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php:180)
+[stacktrace]
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(124): Illuminate\\Container\\BoundMethod::addDependencyForCallParameter()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(36): Illuminate\\Container\\BoundMethod::getMethodDependencies()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(81): Illuminate\\Container\\Util::unwrapIfClosure()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#5 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(611): Illuminate\\Container\\BoundMethod::call()
+#6 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(299): Illuminate\\Container\\Container->call()
+#7 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(264): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#8 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#9 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#10 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#11 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#12 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#13 /opt/lampp/htdocs/lumen_API/public/index.php(28): Laravel\\Lumen\\Application->run()
+#14 {main}
+"} 
+[2021-05-18 02:45:11] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:45:46] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:45:49] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:46:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:46:47] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\Container\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\Container\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\Container\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\Container\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\Container\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\\Container\\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\\Container\\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\\Container\\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\\Container\\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:47:35] local.ERROR: syntax error, unexpected '==' (T_IS_EQUAL), expecting ')' {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected '==' (T_IS_EQUAL), expecting ')' at /opt/lampp/htdocs/lumen_API/routes/web.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:47:44] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:47:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:47:56] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:48:32] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:48:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:48:49] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:49:03] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:49:48] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 02:50:47] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:42:20] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:43:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:44:14] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:45:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:46:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:47:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:47:13] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\Container\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\Container\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\Container\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\Container\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\Container\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\\Container\\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\\Container\\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\\Container\\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\\Container\\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:48:14] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:49:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:50:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:51:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:52:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:53:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:54:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:55:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:56:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:57:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:57:13] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\Container\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\Container\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\Container\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\Container\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\Container\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\\Container\\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\\Container\\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\\Container\\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\\Container\\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:58:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 11:59:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:00:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:01:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:02:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:03:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:04:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:05:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:06:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:07:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:07:13] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\Container\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\Container\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\Container\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\Container\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\Container\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064
+Stack trace:
+#0 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(971): Illuminate\\Container\\Container->unresolvablePrimitive()
+#1 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(906): Illuminate\\Container\\Container->resolvePrimitive()
+#2 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(868): Illuminate\\Container\\Container->resolveDependencies()
+#3 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(714): Illuminate\\Container\\Container->build()
+#4 /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php(652): Illuminate\\Container\\Container->resolve()
+#5 /opt/lampp/htdocs/lumen_API/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container at /opt/lampp/htdocs/lumen_API/vendor/illuminate/container/Container.php:1064)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:08:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:09:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:10:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:11:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:12:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:13:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:14:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:15:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2021-05-18 12:16:13] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
