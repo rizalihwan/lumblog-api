@@ -9,6 +9,16 @@ use Illuminate\Support\Str;
 
 class PostController extends Controller
 {
+    protected $req;
+
+    public function __construct()
+    {
+        $this->req = [
+            'title' => 'required',
+            'body' => 'required',
+        ];
+    }
+
     public function index()
     {
         $posts = Post::get();
@@ -21,10 +31,7 @@ class PostController extends Controller
 
     public function store(Request $request)
     {
-        $validator = \Validator::make($request->all(), [
-            'title' => 'required',
-            'body' => 'required',
-        ]);
+        $validator = \Validator::make($request->all(), $this->req);
         if ($validator->fails()) {
             return response()->json([
                 'success' => false,
@@ -74,5 +81,51 @@ class PostController extends Controller
         //         'message' => 'Error!'
         //     ]);
         // }
+    }
+
+    public function update(Request $request, $id)
+    {
+        $validator = \Validator::make($request->all(), $this->req);
+        if ($validator->fails()) {
+            return response()->json([
+                'success' => false,
+                'message' => 'All field not null!',
+                'data'   => $validator->errors()
+            ], 401);
+        } else {
+            $post = Post::whereId($id)->update([
+                'title' => request('title'),
+                'slug' => Str::slug(request('title') . Str::random(20)),
+                'body' => request('body'),
+            ]);
+            if ($post) {
+                return response()->json([
+                    'success' => true,
+                    'message' => 'Post Berhasil diupdate',
+                    'data' => $post
+                ], 201);
+            } else {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Post Gagal diupdate!',
+                ], 404);
+            }
+        }
+    }
+
+    public function destroy($id)
+    {
+        $post = Post::whereId($id)->delete();
+        if ($post) {
+            return response()->json([
+                'success' => true,
+                'message' => 'Post Berhasil Dihapus!',
+            ], 200);
+        } else {
+            return response()->json([
+                'success' => false,
+                'message' => 'Post Gagal dihapus!',
+            ], 404);
+        }
     }
 }
