@@ -23990,3 +23990,13 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2021-05-25 14:48:07] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
